@@ -1,0 +1,11 @@
+.heading-content {
+  height:100vh;  
+  background: rgba(111, 1, 0, 0.65);
+}
+.flex{
+    display:flex;
+}
+.centered{
+    align-items:center;
+    justify-content:center;
+}
