@@ -80,6 +80,10 @@ background-image:url("https://www.transparenttextures.com/patterns/wood.png")
 .projects-heading{
     padding-bottom:60px;
 }
+.projects-thumb{
+    background: transparent;
+    border: none;
+}
 
 /* TIMELINE CSS */
 
