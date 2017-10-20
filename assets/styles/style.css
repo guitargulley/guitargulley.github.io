@@ -76,7 +76,10 @@ background-image:url("https://www.transparenttextures.com/patterns/wood.png")
     margin-bottom: 60px;
 }
 .skills-heading{
-    padding-bottom:60px;
+    padding-bottom:10px;
+    margin-bottom: 60px;
+    background-color:rgba(0, 0, 0, 0.842);
+    color:#757373
 }
 .skills-thumb{
     background:transparent;
@@ -87,7 +90,10 @@ background-image:url("https://www.transparenttextures.com/patterns/wood.png")
     margin-bottom:60px;
 }
 .projects-heading{
-    padding-bottom:60px;
+    padding-bottom:10px;
+    margin-bottom:60px;
+    background-color:rgba(0, 0, 0, 0.842);
+    color:#757373;
 }
 .projects-thumb{
     background: transparent;
@@ -112,6 +118,7 @@ background-image:url("https://www.transparenttextures.com/patterns/wood.png")
     position: relative;
     max-width: 46em;
 }
+/* Timeline line creation */
 .timeline:before{
     background-color: black;
     content:'';
@@ -119,33 +126,45 @@ background-image:url("https://www.transparenttextures.com/patterns/wood.png")
     position: absolute;
     top: 0;
     left: 2em;
-    width:2px;
+    width:2px; 
     height:100%;
 }
+
+/* Position icons over timeline */
 .timeline-event{
-    position:relative;
+    position:relative; 
 }
+/* Hide Content */
 .timeline-event-details{
     display:none;
 }
+
+/* hover function for icons */
 .timeline-event:hover .timeline-event-icon{
     transform: rotate(-225deg);
     background-color:black;
 }
+
+/* hover function for text-box */
 .timeline-event:hover .timeline-event-thumbnail{
     box-shadow: inset 15em 0 0 0 white;
     color:black;
 }
+/* hover function to display content */
 .timeline-event:hover .timeline-event-details{  
     display:inline-block; 
 }
+
+/* position of entire timeline */
 .timeline-event-repeated{
     padding:2em;
     position:relative;
     top: -1.875em;
     left: 4em;
-    width: 80%;
+    width: 80%; 
 }
+
+/* Timeline icon creation and positioning */
 .timeline-event-icon{
     transition:  .75s ease-in;
     transform: rotate(45deg);
@@ -159,6 +178,7 @@ background-image:url("https://www.transparenttextures.com/patterns/wood.png")
     width: 1em;
     height: 1em;
 }
+/* timeline text-box creation and styles */
 .timeline-event-thumbnail{
     transition: 0.5s linear;
     color: white;
