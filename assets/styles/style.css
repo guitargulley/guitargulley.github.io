@@ -40,6 +40,7 @@ background-image:url("https://www.transparenttextures.com/patterns/wood.png")
     background-color:rgba(0, 0, 0, 0.582);
     transition: .3s ease-in;
     color:black;
+    text-shadow:0px 0px 10px white;
 }
 .about-me{
     margin-top:60px;
@@ -52,6 +53,9 @@ background-image:url("https://www.transparenttextures.com/patterns/wood.png")
     background-color:rgba(0, 0, 0, 0.842);
     color:#757373;
    
+}
+.about-me-heading:hover{
+    text-shadow:0px 0px 100px white;
 }
 .about-me-content{
     padding-top:30px;
@@ -75,6 +79,9 @@ background-image:url("https://www.transparenttextures.com/patterns/wood.png")
     background-color:rgba(0, 0, 0, 0.842);
     color:#757373;
     
+}
+.experience-header:hover{
+    text-shadow:0px 0px 100px white;
 }
 .work-experience-thumb{
     background: transparent;
@@ -104,6 +111,9 @@ background-image:url("https://www.transparenttextures.com/patterns/wood.png")
     background-color:rgba(0, 0, 0, 0.842);
     color:#757373
 }
+.skills-heading:hover{
+    text-shadow:0px 0px 100px white;
+}
 .skills-thumb{
     background:transparent;
     border:none;
@@ -121,6 +131,9 @@ background-image:url("https://www.transparenttextures.com/patterns/wood.png")
     margin-bottom:60px;
     background-color:rgba(0, 0, 0, 0.842);
     color:#757373;
+}
+.projects-heading:hover{
+    text-shadow:0px 0px 100px white;
 }
 .projects-thumb{
     background: transparent;
