@@ -4,6 +4,8 @@ background-image:url("https://www.transparenttextures.com/patterns/wood.png")
 .jumbotron{
     background-color:rgba(0, 0, 0, 0.842);
     width:100%;
+    padding-left:0px;
+    padding-right:0px;
 }
 .jumbotron .container{
     height:100vh;
@@ -15,25 +17,30 @@ background-image:url("https://www.transparenttextures.com/patterns/wood.png")
 }
 .navigation{
     padding-top:30px;
+    
     /* padding-bottom:15px; */
 }
 .tabs{
-    border-left: 1px solid black;
-}
-.tabs:last-child{
-    border-right: 1px solid black;
-}
-.tabs a{
+   
     color:black;
     text-decoration: none;
 }
-.tabs:hover{
+.tabs div:last-child{
+    border-right: 1px solid black;
+}
+.tabs div{
+    border-left: 1px solid black;
+}
+.tabs div:hover{
     background-color:rgba(0, 0, 0, 0.582);
     transition: .3s ease-in;
+    color:black;
 }
 .about-me{
     margin-top:60px;
     margin-bottom: 30px;
+    padding-left:-15px;
+    padding-right:-15px;
     
 }
 .about-me-heading{
@@ -58,6 +65,7 @@ background-image:url("https://www.transparenttextures.com/patterns/wood.png")
     padding-right:10px;
     
 }
+
 .experience-header{
     background-color:rgba(0, 0, 0, 0.842);
     color:#757373;
@@ -66,6 +74,16 @@ background-image:url("https://www.transparenttextures.com/patterns/wood.png")
 .work-experience-thumb{
     background: transparent;
     border:none;
+}
+.work-experience-thumb:hover .caption{
+    display:inline-block;
+    
+}
+.work-experience-thumb .caption{
+    display:none;
+}
+.print{
+    padding-right:5px;
 }
 .resume-thumb{
     padding-top: 170px;
