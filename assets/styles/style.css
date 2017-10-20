@@ -103,6 +103,10 @@ background-image:url("https://www.transparenttextures.com/patterns/wood.png")
     background:transparent;
     border:none;
 }
+.skills-thumb img{
+    width:100px;
+    height:100px;
+}
 .projects{
     margin-top:60px;
     margin-bottom:60px;
