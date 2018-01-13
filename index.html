@@ -2,77 +2,44 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Brandon Gulley</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Brandon Gulley Landing Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/styles/style.css">
-    <link rel="stylesheet" href="assets/styles/style.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+        type="text/css">
+    <link rel="stylesheet" href="assets/style.css">
 
 </head>
 
 <body>
-    <div class="container-fluid">
-        <!--HEADER PAGE TAKES UP FULL SCREEN-->
-        <div class="jumbotron text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <h1>BRANDON GULLEY</h1>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <h2>-FULL STACK DEVELOPER-</h2>
-                    </div>
-                </div>
-
+    <div class="bgimg-1">
+        <div class="caption">
+            <span class="border">Brandon Gulley</span>
+        </div>
+    </div>
+    <div class="container-fluid" style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+        <div class="row">
+            <div class="col-xs-12">
+                <h3 style="text-align:center;">Full-Stack Developer</h3>
             </div>
         </div>
-        <!-- END OF HEADER PAGE-->
-
-        <!-- NAV BAR -->
-        <div class="row navigation">
-            <a href="#about" class="tabs">
-                <div class="col-xs-12 col-md-2 col-md-offset-1 text-center">
-                    <h3>ABOUT ME</h3>
-                </div>
-            </a>
-            <a href="#experience" class="tabs">
-                <div class="col-xs-12 col-md-2  text-center">
-                    <h3>EXPERIENCE</h3>
-                </div>
-            </a>
-            <a href="#skills" class="tabs">
-                <div class="col-xs-12 col-md-2  text-center">
-                    <h3>SKILLS</h3>
-                </div>
-            </a>
-            <a href="#projects" class="tabs">
-                <div class="col-xs-12 col-md-2  text-center">
-                    <h3>PROJECTS</h3>
-                </div>
-            </a>
-            <a href="#contact" class="tabs">
-                <div class="col-xs-12 col-md-2 text-center">
-                    <h3>CONTACT</h3>
-                </div>
-            </a>
+    </div>
+    <div class="container-fluid bgimg-2">
+        <div class="caption">
+            <span class="border">ABOUT ME</span>
         </div>
-        <!-- NAVBAR END-->
-
-        <!-- ABOUT SECTION-->
-        <div class="row about-me " id="about">
-
-            <div class="text-center">
-                <h2 class="about-me-heading">ABOUT ME</h2>
-                <div class="col-xs-12 col-md-6">
-                    <img src="assets/images/profile-pic.jpg" alt="">
-                </div>
-                <div class="col-xs-12 col-md-6 about-me-content ">
-                    <p> My name is Brandon Gulley. I am a Full Stack Developer fluent in multiple languages. It has always been
+    </div>
+    <div class="container-fluid off-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+                    <p>My name is Brandon Gulley. I am a Full Stack Developer fluent in multiple languages. It has always been
                         a dream of mine to be able to create something from scratch that the world could experience. Being
                         a developer has made that dream become a reality. The best part of software development for me, is
                         being able to take a simple idea and expand upon it until everything is seamless, functional, and
@@ -84,274 +51,397 @@
                         long day. I was born and raised in Boise, ID, but have also lived in other parts of the country such
                         as Memphis, TN where I was able to enjoy different cultures and and experience different lifestyles.
                     </p>
+                    <p>
                 </div>
             </div>
         </div>
-        <!-- ABOUT END-->
-
-        <!-- RESUME AREA-->
-        <div class="row experience-header " id="experience">
-            <div class="col-xs-12 text-center">
-                <h2>WORK EXPERIENCE</h2>
-            </div>
+    </div>
+    <div class="bgimg-4">
+        <div class="caption">
+            <span class="border">WORK EXPERIENCE</span>
         </div>
-        <div class="row">
-            <div class="col-xs-12 col-md-4 resume-thumb text-center">
-                <div class="thumbnail text-center work-experience-thumb">
-                    <a href="https://guitargulley.github.io/resume/" target="_blank">
-                        <img src="assets/images/resume.png" width="215px" height="315px" class="image-responsive" alt="">
+    </div>
+    <div class="row resume-layout">
+        <div class="col-xs-12 col-md-5 resume-thumb">
+            <div class="container">
+                <div class="content work-experience-thumb">
+                    <a href="https://guitargulley.github.io/resume/" target="_blank" class="thumbnail">
+                        <div class="content-overlay"></div>
+                        <img src="assets/images/resume.png" width="215px" height="315px" class="image-responsive" alt="...">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">
+                                <i class="fa fa-print fa-5x print" aria-hidden="true"></i>
+                            </h3>
+                        </div>
                     </a>
-                    <div class="caption">
-                        <h5>
-                            <i class="fa fa-print fa-2x print" aria-hidden="true"></i>RESUME</h5>
-
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-8">
-                <ul class="timeline">
-                    <li onclick="" class="timeline-event">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-repeated">
-                            <p class="timeline-event-thumbnail">Micron</p>
-                            <div class="timeline-event-details">
-                                <h4>Micron</h4>
-                                <h5>Material Specialist</h5>
-                                <h5>Sept '15 - Oct '17</h5>
-                                <p>As materials specialist, it was my responsibility to ensure on time deliveries to multiple
-                                    locations on campus of highly sensitive product. I was responsible for accurate receipts
-                                    of bot inventory and non-inventory items, as well as maintaining proper inventory stock
-                                    levels. I was required to be certified on multiple different types of equipment including
-                                    three different styles of forklifts, electric pallet jacks, trucks and dock levelers.
-                                    It was also my responsibility of maintaining communication between internal customers,
-                                    as well as suppliers to guarantee inventory levels.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li onclick="" class="timeline-event">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-repeated">
-                            <p class="timeline-event-thumbnail">Great Basin</p>
-                            <div class="timeline-event-details">
-                                <h4>Great Basin</h4>
-                                <h5>Warehouse Manager</h5>
-                                <h5>May '14 - Sept '15</h5>
-                                <p>As warehouse manager with Great Basin, I was responsible for maintaining accurate inventory,
-                                    by creating reports to anticipate needs of the company. I overmatched a crew of five
-                                    team members, ensuring on time deliveries, accurate product reporting and maintained
-                                    customer relations between our customers and business. I was responsible for all purchasing
-                                    to maintain inventory, and reduce overstocked materials.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li onclick="" class="timeline-event">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-repeated">
-                            <p class="timeline-event-thumbnail">T-Mobile USA</p>
-                            <div class="timeline-event-details">
-                                <h4>T-Mobile USA</h4>
-                                <h5>Customer Service Representative</h5>
-                                <h5>Aug '10 - April '14</h5>
-                                <p>As a Customer Service Representative, working for T-Mobile USA, I am responsible for handling
-                                    customers’ accounts efficiently while maintaining security and strictly following privacy
-                                    laws. While working for T-Mobile, I have filled many different roles in the call center,
-                                    including customer service, assisting with our stores and retail locations, and helping
-                                    with support for teams and new hire classes. Part of my current job description is maintaining
-                                    accurate and full notations on customers’ accounts, maintaining a strict schedule to
-                                    ensure time management, and finding solutions for our customers, whether they are simple
-                                    or outside-the-box. </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li onclick="" class="timeline-event">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-repeated">
-                            <p class="timeline-event-thumbnail">Teleperformance USA</p>
-                            <div class="timeline-event-details">
-                                <h4>Teleperformance USA</h4>
-                                <h5>Team Manager</h5>
-                                <h5>Jun '08 - Aug '10</h5>
-                                <p>Working for Teleperformance USA, I assisted with the opening of new call centers in other
-                                    states and then transitioned into a full time position as a transition mentor, which
-                                    served the purpose of preparing new employees to perform their duties. From there I promoted
-                                    into the Quality Assurance department to monitor calls and provide feedback to representatives.
-                                    I was then promoted to a supervisor position where I coached and developed representatives
-                                    on my own team.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li onclick="" class="timeline-event">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-repeated">
-                            <p class="timeline-event-thumbnail">Western Power Sports</p>
-                            <div class="timeline-event-details">
-                                <h4>Western Power Sports</h4>
-                                <h5>Inventory/Merchandise Manager</h5>
-                                <h5>Oct '03 - Aug '06 and May '07 - Mar '08</h5>
-                                <p>As an inventory and merchandising manager with Western Power Sports, I was responsible for
-                                    hiring, training and managing a crew of merchandisers and freight throwers. This position
-                                    required relocating to Memphis, TN, which I was willing to do in order to promote within
-                                    the company.</p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-
-            </div>
-        </div>
-
-
-        <!-- RESUME END-->
-
-        <!-- SKILLS SECTION-->
-        <div class="skills" id="skills">
-            <div class="row skills-heading">
-                <div class="col-xs-12 text-center">
-                    <h2>SKILLS</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-md-8 col-md-offset-2">
-                    <div class="row">
-                        <div class="col-xs-6 col-md-3 thumbnail skills-thumb">
-                            <img src="assets/images/HTML5.png" alt="">
-                        </div>
-                        <div class="col-xs-6 col-md-3 thumbnail skills-thumb">
-                            <img src="assets/images/css3.png" alt="">
-                        </div>
-                        <div class="col-xs-6 col-md-3 thumbnail skills-thumb">
-                            <img src="assets/images/bootstrap-logo.png" alt="">
-                        </div>
-                        <div class="col-xs-6 col-md-3 thumbnail skills-thumb">
-                            <img src="assets/images/git-logo.png" alt="">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-6 col-md-3 thumbnail skills-thumb">
-                            <img src="assets/images/javascript-logo.png" alt="">
-                        </div>
-                        <!-- <div class="col-xs-6 col-md-3 thumbnail skills-thumb">
-                                <img src="//placehold.it/165x110" alt="">
-                        </div>
-                        <div class="col-xs-6 col-md-3 thumbnail skills-thumb">
-                                <img src="//placehold.it/165x110" alt="">
-                        </div>
-                        <div class="col-xs-6 col-md-3 thumbnail skills-thumb">
-                                <img src="//placehold.it/165x110" alt="">
-                            
-                        </div> -->
-                    </div>
                 </div>
             </div>
         </div>
-        <!--SKILLS END-->
-
-        <!-- PROJECTS PAGE-->
-        <div class="projects" id="projects">
-            <div class="row projects-heading">
-                <div class="col-xs-12 text-center">
-                    <h2>PROJECTS</h2>
-                </div>
-            </div>
-           <!-- <div class="row text-center">
-                <div class="col-xs-12 col-md-8 col-md-offset-2">
-                    <div class="row">
-                        <div class="col-xs-12 col-md-4">
-                            <div class="thumbnail projects-thumb">
-                                <a href="">
-                                    <img src="//placehold.it/300x250" alt="">
-                                </a>
-                                <div class="caption">
-                                    <h5>Project Name</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-md-4">
-                            <div class="thumbnail projects-thumb">
-                                <a href="">
-                                    <img src="//placehold.it/300x250" alt="">
-                                </a>
-                                <div class="caption">
-                                    <h5>Project Name</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-md-4">
-                            <div class="thumbnail projects-thumb">
-                                <a href="">
-                                    <img src="//placehold.it/300x250" alt="">
-                                </a>
-                                <div class="caption">
-                                    <h5>Project Name</h5>
-                                </div>
-                            </div>
+        <div class="col-xs-12 col-md-7">
+            <ul class="timeline">
+                <li onclick="" class="timeline-event">
+                    <label class="timeline-event-icon"></label>
+                    <div class="timeline-event-repeated">
+                        <p class="timeline-event-thumbnail">Micron</p>
+                        <div class="timeline-event-details">
+                            <h5>Material Specialist</h5>
+                            <h5>Sept '15 - Oct '17</h5>
+                            <p>As materials specialist, it was my responsibility to ensure on time deliveries to multiple locations
+                                on campus of highly sensitive product. I was responsible for accurate receipts of bot inventory
+                                and non-inventory items, as well as maintaining proper inventory stock levels. I was required
+                                to be certified on multiple different types of equipment including three different styles
+                                of forklifts, electric pallet jacks, trucks and dock levelers. It was also my responsibility
+                                of maintaining communication between internal customers, as well as suppliers to guarantee
+                                inventory levels.
+                            </p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-xs-12 col-md-4">
-                            <div class="thumbnail projects-thumb">
-                                <a href="">
-                                    <img src="//placehold.it/300x250" alt="">
-                                </a>
-                                <div class="caption">
-                                    <h5>Project Name</h5>
-                                </div>
-                            </div>
+                </li>
+                <li onclick="" class="timeline-event">
+                    <label class="timeline-event-icon"></label>
+                    <div class="timeline-event-repeated">
+                        <p class="timeline-event-thumbnail">Great Basin</p>
+                        <div class="timeline-event-details">
+                            <h5>Warehouse Manager</h5>
+                            <h5>May '14 - Sept '15</h5>
+                            <p>As warehouse manager with Great Basin, I was responsible for maintaining accurate inventory,
+                                by creating reports to anticipate needs of the company. I overmatched a crew of five team
+                                members, ensuring on time deliveries, accurate product reporting and maintained customer
+                                relations between our customers and business. I was responsible for all purchasing to maintain
+                                inventory, and reduce overstocked materials.</p>
                         </div>
-                        <div class="col-xs-12 col-md-4">
-                            <div class="thumbnail projects-thumb">
-                                <a href="">
-                                    <img src="//placehold.it/300x250" alt="">
-                                </a>
-                                <div class="caption">
-                                    <h5>Project Name</h5>
-                                </div>
-                            </div>
+                    </div>
+                </li>
+                <li onclick="" class="timeline-event">
+                    <label class="timeline-event-icon"></label>
+                    <div class="timeline-event-repeated">
+                        <p class="timeline-event-thumbnail">T-Mobile USA</p>
+                        <div class="timeline-event-details">
+                            <h5>Customer Service Representative</h5>
+                            <h5>Aug '10 - April '14</h5>
+                            <p>As a Customer Service Representative, working for T-Mobile USA, I am responsible for handling
+                                customers’ accounts efficiently while maintaining security and strictly following privacy
+                                laws. While working for T-Mobile, I have filled many different roles in the call center,
+                                including customer service, assisting with our stores and retail locations, and helping with
+                                support for teams and new hire classes. Part of my current job description is maintaining
+                                accurate and full notations on customers’ accounts, maintaining a strict schedule to ensure
+                                time management, and finding solutions for our customers, whether they are simple or outside-the-box.
+                            </p>
                         </div>
-                        <div class="col-xs-12 col-md-4">
-                            <div class="thumbnail projects-thumb">
-                                <a href="">
-                                    <img src="//placehold.it/300x250" alt="">
-                                </a>
-                                <div class="caption">
-                                    <h5>Project Name</h5>
-                                </div>
-                            </div>
+                    </div>
+                </li>
+                <li onclick="" class="timeline-event">
+                    <label class="timeline-event-icon"></label>
+                    <div class="timeline-event-repeated">
+                        <p class="timeline-event-thumbnail">Teleperformance USA</p>
+                        <div class="timeline-event-details">
+                            <h5>Team Manager</h5>
+                            <h5>Jun '08 - Aug '10</h5>
+                            <p>Working for Teleperformance USA, I assisted with the opening of new call centers in other states
+                                and then transitioned into a full time position as a transition mentor, which served the
+                                purpose of preparing new employees to perform their duties. From there I promoted into the
+                                Quality Assurance department to monitor calls and provide feedback to representatives. I
+                                was then promoted to a supervisor position where I coached and developed representatives
+                                on my own team.</p>
                         </div>
-                    </div> -->
+                    </div>
+                </li>
+                <li onclick="" class="timeline-event">
+                    <label class="timeline-event-icon"></label>
+                    <div class="timeline-event-repeated">
+                        <p class="timeline-event-thumbnail">Western Power Sports</p>
+                        <div class="timeline-event-details">
+                            <h5>Inventory/Merchandise Manager</h5>
+                            <h5>Oct '03 - Aug '06 and May '07 - Mar '08</h5>
+                            <p>As an inventory and merchandising manager with Western Power Sports, I was responsible for hiring,
+                                training and managing a crew of merchandisers and freight throwers. This position required
+                                relocating to Memphis, TN, which I was willing to do in order to promote within the company.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <div class="bgimg-3">
+        <div class="caption">
+            <span class="border">PORTFOLIO</span>
+        </div>
+    </div>
+    <div class="row resume-layout">
+        <div class="col-xs-12 col-md-3">
+            <div class="container">
+                <div class="content">
+                    <a href="https://rule-them-all.herokuapp.com" target="_blank" class="thumbnail">
+                        <div class="content-overlay"></div>
+                        <img src="assets/images/kanban-img.png" alt="...">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">KANBAN</h3>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
-        <!--PROJECTS END-->
+        <div class="col-xs-12 col-md-3">
+            <div class="container">
+                <div class="content">
+                    <a href="https://confer-bcw.herokuapp.com/#/" target="_blank" class="thumbnail">
+                        <div class="content-overlay"></div>
+                        <img src="assets/images/confer-img.png" alt="...">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">CONFER</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-3">
+            <div class="container">
+                <div class="content">
+                    <a href="https://guitargulley.github.io/inspire/" target="_blank" class="thumbnail">
+                        <div class="content-overlay"></div>
+                        <img src="assets/images/inspire-img.png" alt="...">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">INSPIRE</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="col-xs-12 col-md-3">
+            <div class="container">
+                <div class="content">
+                    <a href="#" class="thumbnail">
+                        <div class="content-overlay"></div>
+                        <img src="assets/images/kanban-img.png" alt="...">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">KANBAN</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <div class="bgimg-6">
+        <div class="caption">
+            <span class="border">SKILLS</span>
+        </div>
+    </div>
+    <div class="row skills resume-layout">
+        <div class="col-xs-12 col-md-2">
+            <div class="container">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img src="assets/images/html-logo.svg"
+                        alt="...">
+                    <div class="content-details fadeIn-bottom">
+                        <h4 class="content-title">HTML5</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                                90%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-2">
+            <div class="container">
+                <div class="content">
 
-        <!--CONTACT INFO SECTION/FOOTER-->
-        <div class="row footer" id="contact">
+                    <div class="content-overlay"></div>
+                    <img src="assets/images/css-logo.svg"
+                        alt="...">
+                    <div class="content-details fadeIn-bottom">
+                        <h4 class="content-title">CSS3</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                70%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-2">
+            <div class="container">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img src="assets/images/bootstrap-logo.svg"
+                        alt="...">
+                    <div class="content-details fadeIn-bottom">
+                        <h4 class="content-title">BOOTSTRAP FW</h4>
+                        <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                    80%
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-2">
+            <div class="container">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img src="assets/images/git-logo.svg"
+                        alt="...">
+                    <div class="content-details fadeIn-bottom">
+                        <h4 class="content-title">GIT</h4>
+                        <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                                    60%
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-2">
+            <div class="container">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img src="assets/images/js-logo.svg"
+                        alt="...">
+                    <div class="content-details fadeIn-bottom">
+                        <h4 class="content-title">JAVASCRIPT</h4>
+                        <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                                    75%
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-2">
+            <div class="container">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img src="assets/images/node-logo.svg"
+                        alt="...">
+                    <div class="content-details fadeIn-bottom">
+                        <h4 class="content-title">NODE JS</h4>
+                        <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                    70%
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-2">
+            <div class="container">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img src="assets/images/vue-logo.svg"
+                        alt="...">
+                    <div class="content-details fadeIn-bottom">
+                        <h4 class="content-title">VUE JS</h4>
+                        <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                    70%
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-2">
+            <div class="container">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img src="assets/images/mongo-logo.svg"
+                        alt="...">
+                    <div class="content-details fadeIn-bottom">
+                        <h4 class="content-title">MONGO DB</h4>
+                        <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:55%">
+                                    55%
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-2">
+            <div class="container">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img src="assets/images/csharp-logo.svg"
+                        alt="...">
+                    <div class="content-details fadeIn-bottom">
+                        <h4 class="content-title">C#</h4>
+                        <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:30%">
+                                    30%
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-2">
+            <div class="container">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img src="assets/images/dotnet-logo.svg"
+                        alt="...">
+                    <div class="content-details fadeIn-bottom">
+                        <h4 class="content-title">DOTNET FW</h4>
+                        <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:30%">
+                                    30%
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-2">
+            <div class="container">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img src="assets/images/mysql-logo.svg"
+                        alt="...">
+                    <div class="content-details fadeIn-bottom">
+                        <h4 class="content-title">MySQL</h4>
+                        <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:30%">
+                                    30%
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-            <div class="col-xs-12 col-md-6 footer-content text-center">
+    </div>
+    <div class="bgimg-5">
+        <div class="caption">
+            <span class="border">CONTACT:</span>
+            <span class="border">Brandon Gulley</span>
+            <span class="border">
+                <a href="mailto:brandon.gulley511@gmail.com">brandon.gulley511@gmail.com</a>
+            </span>
+            <br>
+            <span class="border links">
                 <a href="https://github.com/guitargulley" target="_blank">
-                    <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-github " aria-hidden="true"></i>
                 </a>
                 <a href="https://www.facebook.com/brandon.gulley.58" target="_blank">
-                    <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-facebook " aria-hidden="true"></i>
                 </a>
                 <a href="https://twitter.com/guitargulley" target="_blank">
-                    <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
                 </a>
                 <a href="https://www.linkedin.com/in/brandon-gulley-16154014b" target="_blank">
-                    <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin " aria-hidden="true"></i>
                 </a>
-            </div>
-            <div class="col-xs-12 col-md-6 text-center">
-                <h5>
-                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                    BRANDON.GULLEY511@GMAIL.COM</h5>
-            </div>
+            </span>
         </div>
-        <!--FOOTER END-->
     </div>
-
-
 </body>
 
 </html>
