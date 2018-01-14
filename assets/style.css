@@ -61,9 +61,17 @@ body, html {
     background-color: #111;
     color: #fff;
     padding: 18px;
-    font-size: 50px;
-    letter-spacing: 10px;
+    font-size: 45px;
+    letter-spacing: 7px;
   }
+  .caption span.border2 {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 20px;
+    letter-spacing: .05em;
+  }
+  
   
   h3 {
     letter-spacing: 5px;
@@ -123,14 +131,14 @@ body, html {
     color:#ddd;
     background-color:#282E34;
     text-align:center;
-    padding:50px 80px;
+    padding:50px 40px;
     position:relative;
     font-size: 20px;
   }
   .resume-layout{
     background-color:#282E34;
     text-align:center;
-    padding:50px 80px;
+    padding:50px 10px;
     position:relative;
     margin-right: auto;
   }
@@ -186,7 +194,7 @@ ul{
 .timeline:before{
     background-color: #ddd;
     content:'';
-    margin-left: 53px;
+    margin-left: 0px;
     position: absolute;
     top: 0;
     left: 2em;
@@ -227,7 +235,7 @@ ul{
     padding:2em;
     position:relative;
     top: -1.875em;
-    left: 4em;
+    left: 0em;
     width: 80%; 
 }
 
@@ -241,7 +249,7 @@ ul{
     margin: 1em 1em 1em -1em;
     position: absolute;
     top: -.5em;
-    left: 3.5em;
+    left: 0em;
     width: 1em;
     height: 1em;
 }
