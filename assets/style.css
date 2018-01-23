@@ -1,7 +1,7 @@
 body, html {
     height: 100%;
     margin: 0;
-    font: 400 15px/1.8 "Lato", sans-serif;
+    font: 400 15px/1.8 "Flamenco", cursive;
     color: #777;
   }
   
@@ -15,17 +15,17 @@ body, html {
   
   }
   .bgimg-1 {
-    background-image: url("https://images.unsplash.com/photo-1509718443690-d8e2fb3474b7?auto=format&fit=crop&w=1950&q=80");
+    background-image: url("https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?auto=format&fit=crop&w=1951&q=80");
     min-height: 100%;
   }
   
   .bgimg-2 {
-    background-image: url("https://images.unsplash.com/1/macbook-air-all-faded-and-stuff.jpg?dpr=1&auto=format&fit=crop&w=1050&q=60&cs=tinysrgb");
+    background-image: url("https://images.unsplash.com/photo-1500835556837-99ac94a94552?auto=format&fit=crop&w=934&q=80");
     min-height: 400px;
   }
   
   .bgimg-3 {
-    background-image: url("https://images.unsplash.com/38/awhCbhLqRceCdjcPQUnn_IMG_0249.jpg?dpr=1&auto=format&fit=crop&w=967&q=60&cs=tinysrgb");
+    background-image: url("https://images.unsplash.com/photo-1492541641671-bd75cf01a094?auto=format&fit=crop&w=1950&q=80");
     min-height: 400px;
   }
   .bgimg-4 {
@@ -37,7 +37,7 @@ body, html {
     min-height: 100%;
   }
   .bgimg-6{
-    background-image: url("https://images.unsplash.com/photo-1489389944381-3471b5b30f04?auto=format&fit=crop&w=1950&q=80");
+    background-image: url("https://images.unsplash.com/reserve/oIpwxeeSPy1cnwYpqJ1w_Dufer%20Collateral%20test.jpg?auto=format&fit=crop&w=1516&q=80");
     min-height: 400px;
   }
   .links a{
@@ -58,26 +58,31 @@ body, html {
   }
   
   .caption span.border {
-    background-color: #111;
+    background-color:rgb(128, 113, 113);
     color: #fff;
     padding: 18px;
     font-size: 45px;
     letter-spacing: 7px;
   }
   .caption span.border2 {
-    background-color: #111;
+    background-color:rgb(143, 131, 131);
     color: #fff;
     padding: 18px;
     font-size: 20px;
     letter-spacing: .05em;
   }
-  
+  .email{
+    color:#fff;
+  }
+  .email:hover{
+    color: black;
+  }
   
   h3 {
     letter-spacing: 5px;
     text-transform: uppercase;
-    font: 20px "Lato", sans-serif;
-    color: #111;
+    font: 20px "Flamenco", cursive;
+    color: #fff;
   }
   .thumbnail {
     position: relative;
@@ -127,28 +132,28 @@ body, html {
           background-attachment: scroll;
       }
   }
-  .off-section {
+  .about-me {
     color:#ddd;
-    background-color:#282E34;
+    background-color:rgb(143, 131, 131);
     text-align:center;
     padding:50px 40px;
     position:relative;
     font-size: 20px;
   }
   .resume-layout{
-    background-color:#282E34;
+    background-color:rgb(143, 131, 131);
     text-align:center;
     padding:50px 10px;
     position:relative;
     margin-right: auto;
   }
-  .grid-style{
-    background-color:#282E34;
+  /* .grid-style{
+    background-color:rgb(143, 131, 131);
     text-align:center;
     padding:50px 80px;
     position:relative;
     width: 100%;
-  }
+  } */
   /* .thumbnail{
       height: 200px;
   }
@@ -214,7 +219,7 @@ ul{
 /* hover function for icons */
 .timeline-event:hover .timeline-event-icon{
     transform: rotate(-90deg);
-    background-color:black;
+    background-color:rgb(143, 131, 131);
     outline: 10px solid rgba(221, 221, 221, 0.404);
 }
 
@@ -257,7 +262,7 @@ ul{
 .timeline-event-thumbnail{
     transition: 0.5s linear;
     color: white;
-    background-color:black;
+    background-color:rgb(143, 131, 131);
     box-shadow: inset 0 0 0 0em black;
     display: inline-block;
     margin-bottom: 1 em;
@@ -360,4 +365,13 @@ ul{
   }
   .fadeIn-bottom{
     top: 80%;
+  }
+  .fadeIn-left{
+    left: 20%;
+  }
+  .fadeIn-top{
+    top: 20%;
+  }
+  .fadeIn-right{
+    left: 80%;
   }
